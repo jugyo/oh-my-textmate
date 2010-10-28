@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = TMTBorderLessWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            CLASS = TMTIncrementalPopUpMenu; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                anArrayController = NSArrayController; 
+                dummyWindow = NSWindow; 
+                ed = id; 
+                theTableView = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
