@@ -1,6 +1,3 @@
-[submodule "Bundles/Ack.tmbundle"]
-	path = Bundles/Ack.tmbundle
-	url = http://github.com/protocool/ack-tmbundle.git
 [submodule "Bundles/Git.tmbundle"]
 	path = Bundles/Git.tmbundle
 	url = http://github.com/timcharper/git-tmbundle.git
@@ -13,9 +10,6 @@
 [submodule "Bundles/RubySass.tmbundle"]
 	path = Bundles/RubySass.tmbundle
 	url = http://github.com/aussiegeek/ruby-sass-tmbundle.git
-[submodule "Bundles/RubyShoulda.tmbundle"]
-	path = Bundles/RubyShoulda.tmbundle
-	url = http://github.com/drnic/ruby-shoulda-tmbundle.git
 [submodule "Bundles/RSpec.tmbundle"]
 	path = Bundles/RSpec.tmbundle
 	url = http://github.com/rspec/rspec-tmbundle.git
