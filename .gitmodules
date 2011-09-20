@@ -13,3 +13,6 @@
 [submodule "Bundles/RSpec.tmbundle"]
 	path = Bundles/RSpec.tmbundle
 	url = http://github.com/rspec/rspec-tmbundle.git
+[submodule "Bundles/GitHub.tmbundle"]
+	path = Bundles/GitHub.tmbundle
+	url = https://github.com/drnic/github-tmbundle.git
