@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>jugyo</string>
+	<key>ordering</key>
+	<array>
+		<string>15D8ADD9-2931-4350-A951-6482BE56A5E5</string>
+		<string>73B246EA-2116-47D5-970F-C48D7B8B05C8</string>
+		<string>95280E89-2593-4603-BF28-8959005C562D</string>
+		<string>400E254A-17D8-419D-8712-3286FAA4A265</string>
+		<string>F6A5651E-1147-4247-B659-031C7AC7C98A</string>
+		<string>EF60771C-9AB0-44FF-BD73-6C45FB471BE5</string>
+	</array>
+	<key>uuid</key>
+	<string>4E070086-8C94-42AB-A33F-5BF365EDBA38</string>
+</dict>
+</plist>

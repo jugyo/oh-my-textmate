@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+require 'drb'
+
+begin
+  DRb.start_service("druby://localhost:0")
+rescue SocketError, Errno::EADDRNOTAVAIL
+  DRb.start_service("druby://:0")
+end
+spec_server = DRbObject.new_with_uri("druby://localhost:8989")
+spec_server.run(
+  [
+    "--format", "textmate",
+    "-l", ENV['TM_LINE_NUMBER'],
+    ENV['TM_FILEPATH']
+  ],
+  STDERR,
+  STDOUT
+)</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>@R</string>
+	<key>name</key>
+	<string>Run Single Example with Spork</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.ruby.rspec</string>
+	<key>uuid</key>
+	<string>73B246EA-2116-47D5-970F-C48D7B8B05C8</string>
+</dict>
+</plist>
